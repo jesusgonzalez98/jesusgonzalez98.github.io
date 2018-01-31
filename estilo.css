@@ -1,0 +1,156 @@
+body {
+    background-image: url("windows.jpg");
+    background-position: center center;	  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    visibility:visible;
+    z-index:-5;
+}
+#apple {
+    margin-top: -2.3%;
+    margin-left: 0.3%;
+    z-index: 1;
+    position: absolute;
+}
+.fondoapple {
+    visibility: hidden;
+    z-index: -4;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    margin-top: -10%;
+    margin-left: -3%;
+}
+#apple:hover + .fondoapple {
+    visibility: visible;
+}
+#tareas {
+    display: block;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    margin-top: -0.4%;
+    height: 100%;
+    width: 100%;
+    margin-left: -0.4%;
+    padding: 0.4%;
+}
+.menu {
+    display: block;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+    left: 0%;
+    top: 5%;
+    height: 100%;
+}
+.textareawritter {
+    position: absolute;
+    left: 15%;
+    bottom: 55%;
+    visibility: hidden;
+    transition: 3s;
+    overflow: hidden
+}
+#writter:hover + .textareawritter {
+    visibility: visible;
+    transition: 0s;
+    transform: scale3d(2, 1, 0);
+}
+.textareawritter:hover {
+    visibility: visible;
+}
+#titulowritter {
+    background-color: black;
+    color:lightslategrey;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#ubuntu {
+    margin-top: 2.5%;
+    margin-left: 0.65%;
+    bottom:20%;
+    display: block;
+}
+.fondoubuntu {
+    visibility: hidden;
+    z-index: -4;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    margin-top: -10%;
+    margin-left: -3%;
+}
+#ubuntu:hover + .fondoubuntu {
+    visibility: visible;
+}
+#writter {
+    margin-top: 1%;
+    margin-left: 0.15%;
+    display: block;
+    z-index: 3;
+}
+#terminal {
+    margin-left: 0.25%;
+    display: block;
+    z-index: 3;
+    margin-top: 1%;
+}
+.comandos {
+    position: absolute;
+    left: 15%;
+    bottom: 9%;
+    visibility: hidden;
+    transition: 3s;
+    color: white;
+    background-color: rgb(42, 40, 46);
+    overflow: hidden;
+}
+#terminal:hover + .comandos {
+    visibility: visible;
+    transition: 0s;
+    -webkit-transform: translate(0,10em);
+}
+.comandos:hover {
+    visibility: visible;
+}
+#tituloarea {
+    background-color: black;
+    color:green;
+    position: relative;
+    width: 99%;
+    height: 100%;
+}
+#mozilla {
+    margin-left: 0.32%;
+    display: block;
+    z-index: 3;
+    margin-top: 1%;
+}
+.bing {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -20%;
+    transition: 5s;
+    visibility: hidden;
+    width: 20%;
+    height: 20%;
+}
+#mozilla:hover + .bing {
+    visibility: visible;
+    transition: 0s;
+    transform: skewY(180deg);
+}
+.bing:hover {
+    visibility: visible;
+}
+.papelera {
+    margin-top: 14%;
+    margin-left: 0.32%;
+    display: block;
+    z-index: 3;
+}
